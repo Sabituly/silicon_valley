@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Tables & Forms</h1>
+        <nav>
+            <ol>
+                <li>Tables</li>
+                <li>Forms</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Tables</h2>
+
+            <table title="Таблица для примера">
+                <tr>
+                    <th rowspan="4">Кошки</th>
+                </tr>
+                <tr>
+                    <th>
+                        Любят
+                    </th>
+                    
+                    <th>
+                        Не навидят
+                    </th>
+                </tr>
+                <tr>
+                     <td>Спать</td>
+                     <td>Собак</td>
+                </tr>
+                <tr>
+                    <td>Кушать</td>
+                     <td>Мыться</td>                    
+                </tr>
+            </table>
+
+            <hr>
+            
+            <table>
+                <tr>
+                    <th colspan="4">Показатели</th>
+                </tr>
+                <tr>
+                    <td>Первый квартал</td>
+                    <td>Второй квартал</td>
+                    <td>Третий квартал</td>
+                    <td>Четвертый квартал</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <th>
+                        300
+                    </th>
+                    <th>
+                        600
+                    </th>
+                    <th>
+                        900
+                    </th>
+                    <th>
+                        1200
+                    </th>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Forms</h2>
+             
+            <span>Заполните форму анкету</span>
+            <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+
+                <label for="name-input">User name</label>
+                <input type="text" placeholder="Введите ваше ФИО" name="name" id="name-input" required>
+                <!--Это для того чтобы for обращщался по id к инпуту-->
+                <br>
+                <label for="age">Users age</label>
+                <input type="number" placeholder="Введите Ваш возраст" name="age" id="age" required>
+                
+                <!--required Это чтобы поле не было пустым и не ушло в БД-->
+                <br>
+                <input type="email" placeholder="Введите эмайл" name="email">
+                <input type="password" placeholder="введите ваш пароль" name="password">
+
+                <br>
+                <p>Твой любимый жанр фильмов?</p>
+                <label for="si-fi">Фантастика</label>
+                <input 
+                type="checkbox"  
+                checked
+                 id="si-fi"
+                 name="movie"
+                 value="si-fi">
+
+                 <label for="com">Комедия</label>
+                 <input 
+                 type="checkbox"  
+                 
+                  id="com"
+                  name="movie"
+                  value="com">
+
+                 <label for="female">Мелодрама</label>
+                 <input 
+                 type="checkbox"  
+                 
+                  id="female"
+                  name="movie"
+                  value="female"> <!- value в типе checkbox обязательно нужен!!!!->
+
+                  <p>Are u qazaq?</p>
+                <!--Отличие типа radio от checkbox в том что значение name может быть только одно и передаваться будет в БД только одно-->
+                  <label for="qazaq">Yes</label>
+                  <input type="radio" id="qazaq" name="qazaq" value="yes">
+
+                  <label for="qazaq">No</label>
+                  <input type="radio" id="qazaq" name="qazaq" value="no">
+                  <button type="submit">Отправить</button>
+
+                 
+            </form>
+
+             <!-- 
+                Ключ - значение
+            name -> Daniyar
+            age -> 35
+            email -> iamtashim@gmail.com
+            password -> ********** 
+            movie -> Фантастика, комедия
+            qazaq-> yes
+             -->        
+        
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
