@@ -1,0 +1,35 @@
+h1 {
+
+    color: red;
+    background-color: black;
+    text-decoration: underline;
+}
+
+h2 {
+
+    text-transform: uppercase;
+}
+
+p {
+
+    color: blue;
+}
+
+div {
+
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+
+    color: red;
+    text-decoration: underline;
+}
