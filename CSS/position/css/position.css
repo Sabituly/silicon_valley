@@ -1,0 +1,22 @@
+.parent  {
+
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
