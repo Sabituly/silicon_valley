@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, auto); /* Два ряда */
+    gap: 10px; /* Расстояние между контейнерами */
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Три контейнера в первом ряду */
+    height: 30px;
+
+}
+
+.item {
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+}
+.second {
+    height: 100px;
+    background-color: yellow;
+}
