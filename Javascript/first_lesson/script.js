@@ -40,7 +40,7 @@ let variable_1 = undefined;
 console.log(typeof logic);
 console.log(typeof(variable));
 
-console.log(5=="5"); //true;
+//console.log(5=="5"); //true;
 console.log(5==="5"); //false;
 
 const line = "line";
@@ -64,9 +64,9 @@ if(x>y) {
 }
 
 //switch
-let first;
-let second;
-let third;
+let first = "first";
+let second = "second";
+let third = "third";
 
 switch(third) {  //используется строгое значение "==="
 
@@ -153,12 +153,25 @@ let result = age > 18 ? console.log("You are adult") : console.log("You are a mi
 
 //2-hw
 
-let year = 1300;
+// let year = 1300;
+//
+// if(year%4==0  && year%100!=0) { // ((year % 4 == 0 && year % 100 !=0) || year % 400 == 0)
+//     console.log("Leap year");
+// } else if(year%400==0) {
+//     console.log("Leap year");
+// } else {
+//     console.log("Not leap year");
+// }
 
-if(year%4==0  && year%100!=0) { // ((year % 4 == 0 && year % 100 !=0) || year % 400 == 0)
-    console.log("Leap year");
-} else if(year%400==0) {
-    console.log("Leap year");
-} else {
-    console.log("Not leap year");
+//just fun
+
+function summ(a,b) {
+
+
+    if(a>b) {
+        console.log("a > b");
+    } else {
+        console.log("b > a");
+    }
 }
+
