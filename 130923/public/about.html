@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TO DO app</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <div class="header-contacts">
+                    <div class="contacts-items">
+                        <img src="./images/telephone.png" alt="telephone" class="contacts-item">
+                        <div class="contacts-text">+1(123)-45-67-890</div>
+                    </div>
+                    <div class="contacts-items">
+                        <img src="./images/map.png" alt="map" class="contacts-item">
+                        <div class="contacts-text">г. Алматы, ул. Абая, дом. 6</div>
+                    </div>
+                    <div class="contacts-items">
+                        <img src="./images/email.png" alt="email" class="contacts-item">
+                        <div class="contacts-text">support@gmail.com</div>
+                    </div>
+                </div>
+                <div class="header-icons">
+                    <img src="./images/telegram.png" class="icons-item">
+                    <img src="./images/insta.png" class="icons-item">
+                </div>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section class="first-section">
+        <div class="container">
+           <div class="first-block">
+               <div class="f-b">
+                   <img src="./images/bicycle.png" alt="bicycle" class="f-b-icon">
+                   <div class="f-b-text">
+                       RIDEASWIND
+                   </div>
+               </div>
+               <div class="f-b-menu">
+                   <div class="f-b-menu-text">
+                       <p class="f-b-menu-p">ГЛАВНАЯ</p>
+                   </div>
+                   <div class="f-b-menu-text">
+                       <p class="f-b-menu-p">О НАС</p>
+                   </div>
+                   <div class="f-b-menu-text">
+                       <p class="f-b-menu-p">УСЛУГИ</p>
+                   </div>
+                   <div class="f-b-menu-text">
+                       <p class="f-b-menu-p">ТЕКУЩИЕ ЗАДАЧИ</p>
+                   </div>
+                   <div class="f-b-menu-text">
+                       <p class="f-b-menu-p">ЗАЛОГИНЕТЬСЯ</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="s-s-image">
+            <div class="container">
+                    <div class="inputTitle">
+                        <input type="text" id="inputTitleList" class="inputText" placeholder="Введите ваш список дел">
+                        <button class="add" id="addTitleList" onclick="_addTitleList()">+</button>
+                    </div>
+                <div class="toDoList" id="toDoList">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-menu">
+                <li>Написать нам</li>
+                <li>Адрес</li>
+                <li>Телефон</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+li {
+
+    list-style-type: none;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-contacts {
+    display: flex;
+}
+.contacts-items {
+    display: flex;
+    margin-right: 10px;
+
+    vertical-align: middle;
+
+
+}
+
+.contacts-item {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+
+}
+.contacts-text {
+
+    padding: 5px;
+}
+
+.icons-item {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.f-b {
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 20px;
+    width: 50%;
+}
+
+.f-b-icon {
+
+    width: 60px;
+    height: 60px;
+}
+
+.first-block {
+
+    display: flex;
+    justify-content: space-between;
+    margin: -1px;
+
+}
+
+.f-b-menu {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.f-b-menu-text {
+
+    border-right: 2px lightgrey solid;
+    height: 50px;
+    width: 30%;
+
+}
+
+.f-b-menu-p {
+
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px 5px;
+
+
+}
+
+.f-b-menu-text:first-child {
+    border-left: 2px lightgrey solid;
+}
+
+.first-section {
+    background: #E8E8E8;
+}
+
+.second-section {
+
+    background-image: url('images/bg-image.jpg');
+    background-size: cover;
+    width: 2048px;
+    height: 1367px;
+    background-repeat: no-repeat;
+
+}
+
+.s-s-image {
+
+    display: flex;
+    justify-content: start;
+}
+.nav-menu-h3{
+
+    margin: 20px;
+    text-align: center;
+}
+.nav-menu {
+
+    display: flex;
+    flex-direction: column;
+    background: orange;
+    border: 2px black solid;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+}
+
+.tasks {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.new-tasks {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.s-s-image {
+
+    padding-top: 30px;
+
+}
+
+.toDoList {
+
+    margin-top: 30px;
+}
+.inputTitle {
+    display: flex;
+    flex-direction: row;
+}
+.inputText {
+    height: 30px;
+    width: 250px;
+
+}
+.liItems {
+
+    margin: 10px;
+}
+.liItems >input {
+
+     margin-right: 10px;
+
+}
+
+.deleteTitleList {
+
+    width: 30px;
+    height: 30px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.add {
+    background: #44ff00;
+    width: 70px;
+    height: 30px;
+    font-weight: bolder;
+}
+.delete {
+
+    background: red;
+    margin-left: 15px;
+}
+
+
+.footer  {
+
+    background-color: #f0f0f0;
+    padding: 20px;
+
+}
+
+.footer-menu {
+
+    display: flex;
+    justify-content: space-around;
+}

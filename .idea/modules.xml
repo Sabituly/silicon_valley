@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/WebstormProjects/js_from_bogdan/.idea/js_from_bogdan.iml" filepath="$USER_HOME$/WebstormProjects/js_from_bogdan/.idea/js_from_bogdan.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/silicon_valley.iml" filepath="$PROJECT_DIR$/.idea/silicon_valley.iml" />
     </modules>
   </component>
