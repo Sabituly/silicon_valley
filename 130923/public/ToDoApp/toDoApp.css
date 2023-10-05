@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+}
+
+:root {
+
+    --main-color: rgba(116, 255, 234, 0.49);
+    --app-color: rgba(85, 255, 0, 0.48);
+    --red: #d91c1c;
+
+}
+
+.header {
+
+    height: 60px;
+}
+
+.main-section {
+
+    background-color: var(--main-color);
+    height: 80vh; /*для адоптива найс*/
+    padding-top: 20px;
+}
+
+.frame {
+
+    background-color: var(--app-color);
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.88);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.frame-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.frame-input {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 7px;
+}
+.btn {
+
+    width: 20px;
+    height: 20px;
+}
+.titleTasks {
+
+    color: var(--red);
+    font-size: 15px;
+}
+.inputTask {
+
+    width: 190px;
+}
+
+.tasks {
+    margin: 10px auto;
+}
+li {
+
+    display: flex;
+}
+li input, li span {
+   margin-right: 10px;
+}
+
+li span {
+
+    width: 70px;
+    padding-right: 20px;
+}
+li button {
+    margin-left: 30px;
+}

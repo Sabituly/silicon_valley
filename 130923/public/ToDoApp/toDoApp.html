@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toDoApp</title>
+    <link rel="stylesheet" href="toDoApp.css">
+</head>
+<body>
+    <header class="header">header</header>
+    <main class="main-section">
+      <div class="container">
+        <h1>Todo app</h1>
+          <div class="frame">
+              <div class="frame-title">
+                  <h3 class="titleTasks">Things to buy</h3>
+                  <button class="btn delete-titleTask">x</button>
+              </div>
+              <div class="frame-input">
+                  <input type="text" class="inputTask" id="inputTask" placeholder="Введите новую задачу">
+                  <button class="btn addTask" onclick="addNewTask()">+</button>
+              </div>
+              <ul class="tasks" id="ulList">
+
+              </ul>
+          </div>
+      </div>
+    </main>
+<footer class="footer">
+    footer
+</footer>
+    <script src="toDoApp.js"></script>
+</body>
+</html>
